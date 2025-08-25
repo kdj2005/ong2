@@ -1,0 +1,19 @@
+{
+  "name": "ong-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "seed": "node seed.js",
+    "seed:append": "node seed.js --append"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.17.2"
+  }
+}
